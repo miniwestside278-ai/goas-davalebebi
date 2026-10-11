@@ -9,28 +9,28 @@
 x = 16
 y = 4
 
-print(x+2)=20
-print(x-y)=12
-print(x*y)=64
-print(x/y)=4
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
 
 
 
 
-3.# შექმენით 2 ცვლადი: width, height და დაპრინტეთ მართკუთხედის ფართობი/პერიმეტრი
+#3. შექმენით 2 ცვლადი: width, height და დაპრინტეთ მართკუთხედის ფართობი/პერიმეტრი
 
 
 width = 10 
 height = 5
 perimeter = 2 * (width + height)
-area=5*10=50
-perimeter=2*15=30
+area=5*10
+perimeter=2*15
 
-print(area,50)
-print(perimeter,30)
+print(area)
+print(perimeter)
 
 
-4.#კომენტარის სახით ახსენით რა არის კონკატენაცია და დაწერეთ მაგალითი.
+#4.კომენტარის სახით ახსენით რა არის კონკატენაცია და დაწერეთ მაგალითი.
 
 
 
@@ -53,15 +53,24 @@ last_name = "ბერიძე"
 # ვუწერთ მათ ერთმანეთს კონკატენაციით (შუაში ვამატებთ ცარიელ ბრჭყალებს სფეისისთვის)
 full_name = first_name + " " + last_name
 #ანა ბერიძე=ანა + " " + ბერიძე
-print("ანა_ბერიძე")
+print(full_name)
 
 
 
 
 
-3.#შექმენით 3 ცვლადი: name, age, height შიგნით შეინახეთ შესაბამისი მონაცემთა ტიპის მნიშვნელობა და დაპრინტეთ
 
 
-print("name:(ლუკა)")
-print("age:(22)")
-print("height:(1.82)")
+
+
+#5.შექმენით 3 ცვლადი: name, age, height შიგნით შეინახეთ შესაბამისი მონაცემთა ტიპის მნიშვნელობა და დაპრინტეთ
+
+
+name="luka"
+age=22
+height=1.82
+
+print(name)
+print(age)
+print(height)
+
