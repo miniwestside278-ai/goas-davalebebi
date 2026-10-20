@@ -27,15 +27,15 @@
 num=float(input("enter your number:"))
 square=num**2
 cube=num**3
-print(f"{square}")
-print(f"{cube}")
+print(square)
+print(cube)
 
 
 
 # 3.მომხმარებელს შემოაყვანინეთ ორი რიცხვი და შეასრულეთ ყველა მათემატიკური ოპერაცია
 
-num1=float(input("enter first number (num1):"))
-num2=float(input("enter second number(num2):"))
+num1=int(input("enter first number (num1):"))
+num2=int(input("enter second number(num2):"))
 
 print(f"ჯამი(+){num1+num2}")
 print(f"სხვაობა(-){num1-num2}")
@@ -43,6 +43,7 @@ print(f"გამრავლება(*){num1*num2}")
 print(f"განაყოფი(/):{num1/num2}")
 print(f"მთელი განაყოფი(//):{num1//num2}")
 print(f"ნაშთი(%):{num1%num2}")
+print(f"ახარისხება(**):{num1**num2}")
 
 
 
