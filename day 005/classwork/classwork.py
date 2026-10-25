@@ -14,3 +14,6 @@ num5=int(input("enter your number"))
 Number=num1+num2+num3+num4+num5
 print(Number)
 
+
+
+
