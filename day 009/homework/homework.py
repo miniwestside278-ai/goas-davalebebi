@@ -39,6 +39,5 @@ num2 = int(input("enter your number : "))
 
 if num1 > num2:
     print(f"first number is more ({num1}) then second .")
-
-if num1<num2 :
+else:
     print(f"second number is more ({num2}) then first.")
