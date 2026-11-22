@@ -42,7 +42,8 @@ elif operacia=="*":
     print("result:",num1*num2)
 
 elif operacia=="/":
-    print("result:",num1/num2)
+    if num2!=0:
+        print("result:",num1/num2)
 
 else:
     print("unknown operacia")
