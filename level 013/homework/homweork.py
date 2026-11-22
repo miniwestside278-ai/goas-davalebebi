@@ -68,9 +68,10 @@ user = input("enter user: ")
 passw = input("enter pass: ")
 age = int(input("enter age: "))
 
-if user == "admin" or passw == "Adm1n_123":
+if user == "admin" and passw == "Adm1n_123" and age>=18:
     print("Access denied!")
-elif age >= 18:
+elif user == "admin" and passw == "Adm1n_123" and age<18 :
     print("Full access granted!")
 else:
     print("Limited access!")
+
